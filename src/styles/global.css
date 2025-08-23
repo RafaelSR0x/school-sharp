@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: var(--font-family-primary);
+}
+
 :root {
   --primary-color: #96BB7C;
   --danger-color: #E74040;
@@ -38,25 +46,77 @@
   --light-text-gray-2: #ECECEC;
 
   /* Font family */
-  --font-primary: 'Montserrat', sans-serif;
+  --font-family-primary: 'Montserrat', sans-serif;
 
   /* Font weights */
-  --font-regular: 400;
-  --font-bold: 700;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
 
-  /* Typography */
-  --font-link: 700 14px/24px var(--font-primary);
-  --font-paragraph: 400 14px/20px var(--font-primary);
-  --font-h1: 700 56px/80px var(--font-primary);
-  --font-small: 400 12px/16px var(--font-primary);
-  --font-h5: 700 16px/24px var(--font-primary);
-  --font-h4: 400 20px/30px var(--font-primary);
-  --font-btn-text: 700 14px/22px var(--font-primary);
-  --font-h6: 700 14px/24px var(--font-primary);
-  --font-h2: 700 40px/50px var(--font-primary);
-  --font-h3: 700 24px/32px var(--font-primary);
+  /* Headings */
+  --h1-font-size: 56px;
+  --h1-line-height: 80px;
+  --h1-font-weight: var(--font-weight-bold);
+
+  --h2-font-size: 40px;
+  --h2-line-height: 50px;
+  --h2-font-weight: var(--font-weight-bold);
+
+  --h3-font-size: 24px;
+  --h3-line-height: 32px;
+  --h3-font-weight: var(--font-weight-bold);
+
+  --h4-font-size: 20px;
+  --h4-line-height: 30px;
+  --h4-font-weight: var(--font-weight-regular);
+
+  --h5-font-size: 16px;
+  --h5-line-height: 24px;
+  --h5-font-weight: var(--font-weight-bold);
+
+  --h6-font-size: 14px;
+  --h6-line-height: 24px;
+  --h6-font-weight: var(--font-weight-bold);
+
+  /* Text styles */
+  --paragraph-font-size: 14px;
+  --paragraph-line-height: 20px;
+  --paragraph-font-weight: var(--font-weight-regular);
+
+  --link-font-size: 14px;
+  --link-line-height: 24px;
+  --link-font-weight: var(--font-weight-bold);
+
+  --btn-text-font-size: 14px;
+  --btn-text-line-height: 22px;
+  --btn-text-font-weight: var(--font-weight-bold);
+
+  --small-font-size: 12px;
+  --small-line-height: 16px;
+  --small-font-weight: var(--font-weight-regular);
 
   --light-drop-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  --accentued-drop-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
 
-   --accentued-drop-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+.container-description-section {
+    font-size: var(--h6-font-size);
+    color: var(--primary-text-color);
+    font-weight: var(--font-weight-bold);
+    line-height: 24px;
+}
+
+.btn-primary {
+    padding: 15px 40px;
+    font-size: var(--font-btn-text);
+    color: var(--light-text-color);
+    font-weight: var(--font-weight-bold);
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.title-section {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color);
 }

@@ -80,3 +80,11 @@
     background-color: var(--primary-color);
     border-radius: 5px;
 }
+
+.title-section {
+    font-size: var(--font-h2);
+    font-weight: var(--font-bold);
+    color: var(--text-color);
+    letter-spacing: var(--font-h2);
+    line-height: 50px;
+}

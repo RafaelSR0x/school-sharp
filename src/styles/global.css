@@ -70,6 +70,13 @@
     line-height: 24px;
 }
 
-.button-primary {
-    
+.btn-primary {
+    padding: 15px 40px;
+    font-size: var(--font-btn-text);
+    color: var(--light-text-color);
+    letter-spacing: var(--font-btn-text);
+    font-weight: var(--font-bold);
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
 }

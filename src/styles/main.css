@@ -1,0 +1,107 @@
+main>.brand{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 91px;
+}
+
+.brand>h1{
+    font-size: var(--font-h5);
+ 
+}
+
+nav>ul{
+    display: flex;
+    gap: 21px;
+}
+
+nav>ul>li{
+    list-style: none;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: var(--font-bold);
+    color: var(--second-text-color);
+}
+
+
+.butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt>a{
+    font-size: var(--font-link);
+    font-weight: var(--font-bold);
+    color: var(--primary-text-color);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.btn-primary{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-top: 4px;
+}
+
+.md-6{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 175px 0px;
+}
+
+.md-6>h1{
+    font-size: var(--h1-font-size);
+    line-height: var(--h1-line-height);
+}
+
+.md-6>p{
+    font-size: var(--h4-font-size);
+    font-weight: var(--h4-font-weight);
+    line-height: var(--h4-line-height);
+    color: var(--second-text-color);
+}
+
+.md-6>h1>span{
+    display: flex;
+    flex-direction: column;
+}
+
+.md-6>p>span{
+    display: flex;
+    flex-direction: column;
+}
+
+.butttwo{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.bott-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:var(--link-font-size) ;
+    font-weight: var(--link-font-weight);
+    line-height: var(--link-line-height);
+    color: var(--primary-text-color) ;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+}

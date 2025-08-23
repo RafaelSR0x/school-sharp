@@ -20,7 +20,15 @@ body {
     gap: 15px;
 }
 
-.title-section {
+.container-clients p {
+    width: 462px;
+    color: var(--second-text-color);
+    font-size: var(--paragraph-font-size);
+    font-weight: var(--paragraph-font-weight);
+    line-height: var(--paragraph-line-height);
+}
+
+.cards-clients {
     display: flex;
     gap: 15px;
 }
@@ -34,4 +42,93 @@ article {
     flex-direction: column;
     gap: 10px;
     padding: 25px;
+}
+
+.stars-card-clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stars-card-clients p {
+    font-size: var(--link-font-size);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-text-color);
+}
+
+.stars-card-clients .stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    background-color: var(--dark-background-color);
+    border-radius: 20px;
+}
+
+.stars-card-clients .stars p {
+    color: var(--light-text-color);
+}
+
+.info-cards-clients h4 {
+    font-size: var(--h5-line-height);
+    color: var(--text-color);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--h5-line-height);
+    width: 151px;
+}
+
+.info-cards-clients p {
+    font-size: var(--paragraph-font-size);
+    font-weight: var(--paragraph-font-weight);
+    line-height: var(--paragraph-line-height);
+    color: var(--second-text-color);
+}
+
+.info-cards-clients button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 141px;
+    border: 1px solid var(--primary-color);
+    border-radius: 37px;
+    background-color: transparent;
+    color: var(--primary-color);
+    padding: 10px;
+    font-size: var(--btn-text-font-size);
+    font-weight: var(--btn-text-font-weight);
+}
+
+.dowloads-clients {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dowloads-clients img {
+    width: 16px;
+    height: 16px;
+}
+
+.dowloads-clients h5 {
+    color: var(--second-text-color);
+    font-size: var(--h6-font-size);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--h6-line-height);
+}
+
+.prices-clients {
+    display: flex;
+    gap: 5px;
+}
+
+.prices-clients h5 {
+    color: var(--second-text-color);
+    font-size: var(--h5-font-size);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--h5-line-height);
+}
+
+.prices-clients h5 span {
+    color: var(--secondary-color-1);
 }

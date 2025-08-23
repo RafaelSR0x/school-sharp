@@ -35,6 +35,28 @@ body {
 
 article {
     width: 348px;
+    position: relative;
+}
+
+.image-section-clients h6 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: var(--light-text-color);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--h6-font-size);
+    background-color: var(--danger-color);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.status-clients {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 236px;
+    left: 104px;
 }
 
 .info-cards-clients {

@@ -1,3 +1,5 @@
+@import url(./global.css);
+
 main>.brand{
     display: flex;
     justify-content: space-around;
@@ -105,3 +107,63 @@ hero{
     background-color: transparent;
     border: 1px solid var(--primary-color);
 }
+
+
+/* section pencil */
+
+section {
+    height: 664px;
+}
+
+.toop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toop>h6 {
+    color: var(--primary-color);
+    font-size: var(--h6-font-size);
+    font-weight: var(--h6-font-weight);
+    line-height: var(--h6-line-height);
+    margin-top: 81px;
+}
+
+.toop>h3 {
+    padding: 10px 0px;
+}
+
+.toop>p {
+    display: flex;
+    color: var(--second-text-color);
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.toop>p>span {
+    display: flex;
+    flex-direction: column;
+}
+
+.resp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 80px;
+}
+
+.img1 {
+    border-radius: 20px;
+    width: 688px;
+    height: 363px;
+}
+
+.img2 {
+    position: absolute;
+    top: 136px;
+}
+

@@ -33,7 +33,7 @@ body {
     gap: 15px;
 }
 
-article {
+.cards-clients article {
     width: 348px;
     position: relative;
 }

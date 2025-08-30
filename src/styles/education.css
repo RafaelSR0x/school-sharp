@@ -1,1 +1,160 @@
 @import url(./global.css);
+
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+    padding: 60px 0px;
+}
+
+.container-education {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-education p {
+    font-size: var(--paragraph-font-size);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--paragraph-line-height);
+    color: var(--second-text-color);
+    width: 469px;
+}
+
+.plans-education {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.plans-education article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding: 50px 40px;
+    box-shadow: var(--accentued-drop-shadow);
+    width: 328px;
+}
+
+.plans-education article h3 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--h3-line-height);
+    color: var(--text-color);
+}
+
+.plans-education article .subtitle-card-education {
+    font-size: var(--h6-font-size);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--h6-line-height);
+    color: var(--second-text-color);
+    width: 142px;
+}
+
+.plans-education article p {
+    font-size: var(--paragraph-font-size);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--paragraph-line-height);
+    color: var(--second-text-color);
+}
+
+.plans-education article button {
+    padding: 15px 80px;
+    font-size: var(--btn-text-font-size);
+    font-weight: var(--font-weight-bold);
+    color: var(--light-text-color);
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+.price-plans-education h2 {
+    font-size: var(--h2-font-size);
+    color: var(--primary-color);
+}
+
+.price-plans-education .price {
+    font-size: var(--h6-font-size);
+    font-weight: var(--font-weight-bold);
+    color: var(--disabled-element-color);
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 243px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.feature-item h6 {
+    font-size: var(--h6-font-size);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--h6-line-height);
+    color: var(--text-color);
+    text-align: start;
+}
+
+.article-blue {
+    position: relative;
+    background-color: var(--dark-background-color);
+}
+
+.article-blue .title-article-blue {
+    color: var(--light-text-color);
+}
+
+.subtitle-card-education-blue {
+    font-size: var(--h6-font-size);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--h6-line-height);
+    color: var(--light-text-color);
+    width: 142px;
+}
+
+.article-blue .paragrafy-article-blue {
+    font-size: var(--paragraph-font-size);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--paragraph-line-height);
+    color: var(--light-text-color);
+}
+
+.article-blue .feature-item-article-blue {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.article-blue .feature-item-article-blue h6 {
+    font-size: var(--h6-font-size);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--h6-line-height);
+    color: var(--light-text-color);
+    text-align: start;
+}
+
+.article-blue .new-article-blue {
+    position: absolute;
+    top: -42px;
+    right: -27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background-color: var(--alert-color);
+    border-radius: 100px;
+}
+
+.article-blue .new-article-blue h3 {
+    color: var(--light-text-color);
+}

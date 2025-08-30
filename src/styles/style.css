@@ -33,6 +33,7 @@ nav>ul>li>a{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .butt>a{
@@ -165,5 +166,143 @@ section {
 .img2 {
     position: absolute;
     top: 136px;
+}
+
+/* Most popular */
+
+.most-popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 160px 0;
+    background-color: var(--light-background-color);
+    
+}
+.most-popular .content-most-popular {
+    width: 691px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+
+}
+.content-most-popular p {
+    font-size: var(--paragraph-font-size);
+    font-weight: var(--paragraph-font-weight);
+    line-height: var(--paragraph-line-height);
+    color: var(--second-text-color);
+    width: 463px;
+    letter-spacing: 0.2px;
+}
+
+.most-popular .container-cards-courses {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.most-popular .card-most-popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    width: 328px;
+    height: 264px;
+    padding: 35px 40px;
+    box-shadow: var(--accentued-drop-shadow);
+    background-color: var(--light-background-color);
+    transition: 0.5s;
+
+
+}
+.most-popular .card-most-popular:hover {
+    transform: translateY(-8px);
+    
+}
+
+.card-most-popular .line-red {
+    background-color: var(--danger-color);
+    width: 50px;
+    height: 2px;
+}
+.card-most-popular h5 {
+    font-size: var(--h5-font-size);
+    font-weight: var(--h5-font-weight);
+    color: var(--text-color);
+}
+
+.card-most-popular img {
+    width: 48px;
+}
+.card-most-popular p {
+    font-size: var(--paragraph-font-size);
+    font-weight: var(--paragraph-font-weight);
+    line-height: var(--paragraph-line-height);
+    color: var(--second-text-color);
+    letter-spacing: 0.2px;
+    width: 136px;
+    
+}
+
+/* Popular courses */
+
+.Popular-courses {
+    background-color: var(--light-background-color);
+    margin-top: 80px;
+}
+.content-popular-courses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.content-popular-courses .student-popular {
+    width: 376.94px;
+    height: 440.61px;
+}
+.didactic-course .line-red {
+    display: flex;
+    align-self: start;
+    width: 94px;
+    height: 7px;
+    background-color: var(--danger-color);
+
+
+}
+.didactic-course {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 35px;
+    width: 381px;
+    height: 296px;
+}
+.didactic-course p {
+    font-size: var(--paragraph-font-size);
+    font-weight: var(--paragraph-font-weight);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: 0.2px;
+    color: var(--second-text-color);
+    width: 345px;
+
+}
+.didactic-course .learn-more a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+.didactic-course .learn-more a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: var(--link-font-size);
+    font-weight: var(--link-font-weight);
+    line-height: var(--link-line-height);
+
 }
 
